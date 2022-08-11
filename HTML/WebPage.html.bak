@@ -1,0 +1,17 @@
+ <! DOCTYPE>
+ <html>
+	<head>
+		<title>My First Web Page</title>
+		    <style type = "text/css">
+			body{
+				color:red;
+			 }
+			 </style>
+	</head>		 
+			
+	<body> 
+		This is simple HTML Document.
+		Enter Name:<input type ="text">
+
+	</body>
+ <html>

@@ -1,0 +1,27 @@
+<! DOCTYPE>
+<html>
+	<title>Title page</title>
+		<head>
+			<body>
+			<p>This is HTML Document.
+			
+			<h1>Header 1</h1>
+			<h2>Header 2</h2>
+			<h3>Header 3</h3>
+			<h4>Header 4</h4>
+			<h5>Header 5</h5>
+			<h6><font face="arial" size="10" color="blue">Header 6<font></h6>
+			</p>
+			
+			<h3>My Favourite sports:-</h3>
+			<ul>
+			<li>BasketBall</li>
+			<li>Football</li>
+			<li>Hockey</li>
+			<li>Soccer</li>
+			</ul>
+			</body>
+		</head>
+</html>		
+
+		

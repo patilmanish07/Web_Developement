@@ -1,0 +1,56 @@
+<! DOCTYPE>
+
+<html>
+   <head>
+	 <title>Header webpage</title>
+	
+	<style type= "text/css">
+	body{
+		color:Red;
+	}
+	</style>
+
+	<body>
+		<p>This is HTML Document.</p>
+		Enter Name:<input type = "text">
+		
+		<h1>Header 1</h1>
+		<h2>Header 2</h2>
+		<h3>Header 3</h3>
+		<h4>Header 4</h4>
+		<h5>Header 5</h5>
+		<h6><font face ="arial" size="22"  color="blue">Header 6</font></h6>
+		<p><strong> Bold Text</strong></br>
+		<em>Italic Text</em></br>
+		<u>Underline Tag<u></br>
+        <strike>Strike tag</strike><br>
+		<u><em><strong>bold, italic, and underlined</strong></em></u>	
+		</p>
+		
+		<h3>My Favourite sports:-</h3>
+			<ul>
+			<li>BasketBall</li>
+			<li>Football</li>
+			<img src="football.webp" width="300" height="200"> 
+			<li>Hockey</li>
+			<li>Soccer</li>
+			</ul>
+		<h3>My favourite Vacation</h3>
+	<ol>
+		<li>KedarKantha.India</li>
+		<img src="f2.jpg" width="350" height="250"> 
+		<li>LasVegas</li>
+		<li>Kerala.India</li>
+		<img src="f4.avif" width="350" height="250"> 
+		<li>Prague</li>	
+	</ol>
+	
+	<h1>Vacation Pictures</h1>
+	<p>
+	    <img src="f1.jpg" width="333" height="250"> 
+		<img src="f2.jpg" width="350" height="250"> 
+	    <img src="f1.jpg" width="333" height="250"> 
+	</p>
+	</body>
+   </head>	
+</html>

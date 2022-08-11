@@ -1,0 +1,19 @@
+<! DOCTYPE>
+	<html>
+		<head>
+		  <title>HTML</title>
+			
+			<style type = "text/css">
+			body{
+				color:Blue;
+			}
+			</style>
+		</head>
+		
+		<body>
+			<p>This is simple HTML Document.</p>
+			Enter Name:-<input type="text">
+		
+		<p>This is our first line1.<br>This is our second line2.</p>   //Breaktag is used to break the lines.
+		</body>
+	</html>
