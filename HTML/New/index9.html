@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           header{
+                 text-align: center; 
+                 height:120px;
+                 padding-top:50px;
+                 background-color: grey;
+                 color:white;
+           }
+           section::after{
+            content: "";
+            display: table;
+            clear: both;
+           }
+
+           aside{
+            background-color: gainsboro;
+            width: 30%;
+            float:left;
+            height: 300px;
+           }
+
+           article{
+            background-color: khaki;
+            width: 70%;
+            float: right;
+            height: 300px;
+           }
+
+           ul{
+            list-style-type: none;
+           }
+
+           footer{
+            padding: 10px;
+           }
+
+           @media (max-width: 600px) {
+            aside, article{
+                width: 100%;
+                height: auto;
+            }
+
+           }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Cities</h1>
+    </header>
+    <section>
+        <aside>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </aside>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit tempora delectus magni obcaecati, veniam modi quae atque deserunt autem eligendi nemo doloribus veritatis? Tempora quas sint consectetur laborum quia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit tempora delectus magni obcaecati, veniam modi quae atque deserunt autem eligendi nemo doloribus veritatis? Tempora quas sint consectetur laborum quia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit tempora delectus magni obcaecati, veniam modi quae atque deserunt autem eligendi nemo doloribus veritatis? Tempora quas sint consectetur laborum quia.</p>
+        </article>
+    </section>
+    <footer style="height: 100px; background-color:grey;">
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>

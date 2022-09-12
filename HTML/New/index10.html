@@ -1,0 +1,76 @@
+<!-- Here we have used the flexbox layout in HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            height: 300px;
+            width: 100%;
+            background-color: grey;
+            color:white;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        footer{
+            height: 150px;
+            width: 100%;
+            background-color: grey;
+            color: white; 
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        section{
+            width: 100%;
+            display: flex;
+        }
+
+        aside{
+            background-color: turquoise;
+            flex: 1;
+        }
+
+        article{
+            background-color: violet;
+            flex: 3;
+        }
+
+        @media (max-width: 600px) {
+            section{
+            flex-direction:column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+          <h1>Cities</h1>
+    </header>      
+          <section>
+              <aside>
+                <ul>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Tokyo</a></li>
+                    <li><a href="#">Paris</a></li>
+                </ul>
+              </aside>
+              <article>
+                   <b>Paris<b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis fugit illum soluta tenetur a harum inventore. Illum aliquid officiis asperiores. Quidem odio sequi nesciunt magnam facilis odit, sint rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis fugit illum soluta tenetur a harum inventore. Illum aliquid officiis asperiores. Quidem odio sequi nesciunt magnam facilis odit, sint rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis fugit illum soluta tenetur a harum inventore. Illum aliquid officiis asperiores. Quidem odio sequi nesciunt magnam facilis odit, sint rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis fugit illum soluta tenetur a harum inventore. Illum aliquid officiis asperiores. Quidem odio sequi nesciunt magnam facilis odit, sint rerum.</p>
+              </article>
+          </section>
+          <footer>
+            Footer
+          </footer>
+</body>
+</html>
